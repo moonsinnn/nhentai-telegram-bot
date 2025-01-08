@@ -12,11 +12,8 @@
     "lint:fix": "eslint . --fix",
     "preview": "tsc && node built/src/server"
   },
-  "engines": {
-    "node": ">=14.x"
-  },
   "repository": {
-    "url": "https://github.com/iamdowner/nhentai-telegram-bot"
+    "url": "https://github.com/moonsinnn/nhentai-telegram-bot"
   },
   "license": "GPLv3",
   "keywords": [
@@ -41,8 +38,6 @@
   "devDependencies": {
     "@ava/typescript": "^5.0.0",
     "@sindresorhus/tsconfig": "^7.0.0",
-    "@types/adm-zip": "^0.5.7",
-    "@types/archiver": "^6.0.3",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/html-escaper": "^3.0.2",
@@ -55,7 +50,6 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "adm-zip": "^0.5.16",
     "cheerio": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
